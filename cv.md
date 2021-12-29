@@ -53,3 +53,9 @@ I do not have work experience
     *Mechanical engineering technology, Magistracy.
 * __IT-Academy__ 
     *WEBSITE DEVELOPMENT WITH HTML, CSS & JAVASCRIP 
+******
+******
+## English
+*****
+******
+__EnglishTochka:__ Pre-Intermediat A2 in process.
