@@ -8,11 +8,51 @@
     margin: 0 auto;
 }
 
+.img {
+    width: 35%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .photo {
     width: 250px;
     border-radius: 20%;
 }
 
+section.header {
+    width: 65%;
+    padding: 20px;
+}
+
+.name {
+    font-size: 44px;
+    font-variant: small-caps;
+}
+
+.about-me {
+    font-size: 20px;
+    text-align:justify;
+}
+
 header.container {
     display: flex;
+}
+
+main.container {
+    display: flex;
+}
+
+.aside {
+    width: 35%;
+    padding: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.padding-text {
+    margin: 10px 0px ;
 }

@@ -10,10 +10,12 @@
 </head>
 <body>
     <header class="container">
-        <img src="./assets/img/my-photo.jpg" class="photo" alt="Kulaev Anton">
+        <div class="img">
+            <img src="./assets/img/my-photo.jpg" class="photo" alt="Kulaev Anton">
+        </div>
         <section class="header">
-            <h1>Kulaev Anton</h1>
-            <h2>About me</h2>
+            <h1 class="name">Kulaev Anton</h1>
+            <h2>About me:</h2>
             <p class="about-me">I am 24. I am currently working as an engineer. But I decided to change my life and change my profession. I will continue to study front-end development with RS School. I am a kind and friendly person and have hard work and perseverance. I want to learn new skills and learn how to apply them in practice.</p>    
         </section>
     </header>
@@ -23,28 +25,31 @@
                 <h3>Contacts</h3>
                 <ul>
                     <li>
-                        <h4>Location</h4>
-                        <p>Gomel, Belarus</p>
+                        <p class="padding-text"><span class="bold-text">Location:</span> Gomel, Belarus</p>
                     </li>
                     <li>
-                        <h4>Phone:</h4>
-                        <p>+375293862620</p>
+                        <p class="padding-text"><span class="bold-text">Phone:</span>+375293862620</p>
                     </li>
                     <li>
-                        <h4>Email:</h4>
-                        <p>kulaev-antyan@mail.ru</p>
+                        <p class="padding-text">
+                            <span class="bold-text">Email:</span>
+                            <a href="kulaev-antyan@mail.ru" target="_blank">
+                                kulaev-antyan@mail.ru
+                            </a> 
+                        </p>
                     </li>
                     <li>
-                        <h4>GitHub:</h4>
-                        <p>[AntonKulaev](https://github.com/AntonKulaev)</p>
+                        <p class="padding-text">
+                            <span class="bold-text">GitHub:</span>
+                            <a href="https://github.com/AntonKulaev" target="_blank">
+                                AntonKulaev
+                            </a>
                     </li>
                     <li>
-                        <h4>Discord:</h4>
-                        <p>kulaev-antyan</p>
+                        <p class="padding-text"><span class="bold-text">Discord:</span>@AntonKulaev #2896</p>
                     </li>
                     <li>
-                        <h4>Skype:</h4>
-                        <p>kulaev-antyan </p>
+                        <p class="padding-text"><span class="bold-text">Skype:</span>kulaev-antyan</p>
                     </li>
                 </ul>
             </section>
@@ -52,16 +57,16 @@
                 <h3>Skills</h3>
                 <ul>
                     <li>
-                        HTML5, CSS3
+                        <p class="padding-text">HTML5, CSS3</p> 
                     </li>
                     <li>
-                        Git, GitHub
+                       <p class="padding-text">Git, GitHub</p> 
                     </li>
                     <li>
-                        VS Code
+                       <p class="padding-text">VS Code</p> 
                     </li>
                     <li>
-                        Figma
+                      <p class="padding-text">Figma</p>  
                     </li>
                 </ul>
             </section>
@@ -105,11 +110,7 @@
             </div>
             <div class="english">
                 <h3>English</h3>
-                <ul>
-                    <li>
-                      <p><span>EnglishTochka:</span>Pre-Intermediat A2 in process.</p>  
-                    </li>
-                </ul>
+                <p><span>EnglishTochka:</span>Pre-Intermediat A2 in process.</p>     
             </div>
         </section>
     </main>
