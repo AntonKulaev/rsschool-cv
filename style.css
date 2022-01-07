@@ -1,3 +1,18 @@
-.new {
-    color: red;
+* {
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 250px;
+    border-radius: 20%;
+}
+
+header.container {
+    display: flex;
 }
