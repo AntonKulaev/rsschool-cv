@@ -3,35 +3,48 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
+.fonts  {
+    font-size: 1.5em;
+}
+
+.text-header {
+    font-size: 2em;
+}
+
 .img {
     width: 35%;
-    padding: 20px;
+    padding: 1em;
     display: flex;
     justify-content: center;
 }
 
 .photo {
-    width: 250px;
+    width: 50%;
     border-radius: 20%;
 }
 
-section.header {
+section.header, section.info {
     width: 65%;
-    padding: 20px;
+    padding: 1em;
 }
 
 .name {
-    font-size: 44px;
+    font-size: 3em;
     font-variant: small-caps;
 }
 
-.about-me {
-    font-size: 20px;
+.info-text {
     text-align:justify;
 }
 
@@ -45,7 +58,7 @@ main.container {
 
 .aside {
     width: 35%;
-    padding: 10px;
+    padding: 0.5em;
 }
 
 .bold-text {
@@ -55,4 +68,15 @@ main.container {
 
 .padding-text {
     margin: 10px 0px ;
+}
+
+footer.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-rs {
+    width: 100%;
+    
 }
