@@ -1,5 +1,5 @@
 * {
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     box-sizing: border-box;
 }
 
@@ -28,7 +28,7 @@ body {
     padding: 1em;
     display: flex;
     justify-content: center;
-    background-color: rgb(100, 93, 93);
+    background-color: rgb(127, 133, 55);
 }
 
 .photo {
@@ -47,6 +47,10 @@ section.header, section.info {
     font-variant: small-caps;
 }
 
+.developer {
+    font-size: 2.5em;
+}
+
 .info-text {
     text-align:justify;
 }
@@ -62,7 +66,7 @@ main.container {
 .aside {
     width: 35%;
     padding: 0.5em;
-    background-color: rgb(100, 93, 93);
+    background-color: rgb(127, 133, 55);
 }
 
 .bold-text {
