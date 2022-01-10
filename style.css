@@ -9,6 +9,7 @@ body {
     padding: 0;
 }
 
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -27,6 +28,7 @@ body {
     padding: 1em;
     display: flex;
     justify-content: center;
+    background-color: rgb(100, 93, 93);
 }
 
 .photo {
@@ -37,6 +39,7 @@ body {
 section.header, section.info {
     width: 65%;
     padding: 1em;
+    background-color: darkgray;
 }
 
 .name {
@@ -59,6 +62,7 @@ main.container {
 .aside {
     width: 35%;
     padding: 0.5em;
+    background-color: rgb(100, 93, 93);
 }
 
 .bold-text {
@@ -73,10 +77,37 @@ main.container {
 footer.container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .img-rs {
     width: 100%;
     
+}
+
+.img-gh {
+    width: 100%;
+}
+
+.image-rs {
+    width: 20%;
+    margin-right: 5%;
+}
+
+.image-gh {
+    display: flex;
+    align-items: center;
+    width: 5%;
+    margin-right: 5%;
+}
+
+.year {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: rgb(8, 15, 22);
+}
+
+footer {
+    background-color: rgb(248, 248, 248);
 }
