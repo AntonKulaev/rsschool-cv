@@ -1,3 +1,117 @@
-.new {
-    color: red;
+* {
+    /* border: 1px solid grey; */
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.fonts  {
+    font-size: 1.5em;
+}
+
+.text-header {
+    font-size: 2em;
+}
+
+.img {
+    width: 35%;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(127, 133, 55);
+}
+
+.photo {
+    width: 50%;
+    border-radius: 20%;
+}
+
+section.header, section.info {
+    width: 65%;
+    padding: 1em;
+    background-color: darkgray;
+}
+
+.name {
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+.developer {
+    font-size: 2.5em;
+}
+
+.info-text {
+    text-align:justify;
+}
+
+header.container {
+    display: flex;
+}
+
+main.container {
+    display: flex;
+}
+
+.aside {
+    width: 35%;
+    padding: 0.5em;
+    background-color: rgb(127, 133, 55);
+}
+
+.bold-text {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.padding-text {
+    margin: 10px 0px ;
+}
+
+footer.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-rs {
+    width: 100%;
+    
+}
+
+.img-gh {
+    width: 100%;
+}
+
+.image-rs {
+    width: 20%;
+    margin-right: 5%;
+}
+
+.image-gh {
+    display: flex;
+    align-items: center;
+    width: 5%;
+    margin-right: 5%;
+}
+
+.year {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: rgb(8, 15, 22);
+}
+
+footer {
+    background-color: rgb(248, 248, 248);
 }
