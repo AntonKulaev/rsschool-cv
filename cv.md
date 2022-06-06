@@ -28,6 +28,6 @@ I do not have work experience
 * __Sukhoi State Technical University of Gomel__        
     + Mechanical engineering technology, Magistracy.
 * __IT-Academy__ 
-    + WEBSITE DEVELOPMENT WITH HTML, CSS & JAVASCRIP 
+    + WEBSITE DEVELOPMENT WITH HTML, CSS, JAVASCRIP 
 ## English
 __EnglishTochka:__ Pre-Intermediat A2 in process.
