@@ -8,21 +8,26 @@
     <title>cv</title>
 </head>
 <body>
-    <div>
-        <p>Hello World!!!</p>
-    </div>
-    <!-- <header class="container">
+    <header class="container">
         <div class="img">
             <img src="./assets/img/my-photo.jpg" class="photo" alt="Kulaev Anton">
         </div>
-        <section class="header">
+        <div class="header">
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li><a href="#aboutMe"><h4 class="header-list_item fonts">About me</h4></a></li>
+                    <li><a href="#education"><h4 class="header-list_item fonts">Education</h4></a></li>
+                    <li><a href="#contacts"><h4 class="header-list_item fonts">Contacts</h4></a></li>
+                    <li><a href="#skills"><h4 class="header-list_item fonts">Skills</h4></a></li>
+                </ul>
+            </nav>  
             <h1 class="name">Kulaev Anton</h1>
-            <h2 class="developer">Future Front-end Developer</h2>  
-        </section>
+            <h2 class="developer">Future Front-end Developer</h2>
+        </div>
     </header>
     <main class="container">
         <aside class="aside">
-            <section class="contacts">
+            <section class="contacts" id="contacts">
                 <h3 class="text-header">Contacts</h3>
                 <ul>
                     <li>
@@ -55,7 +60,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="skills">
+            <section class="skills" id="skills">
                 <h3 class="text-header">Skills</h3>
                 <ul>
                     <li>
@@ -74,11 +79,11 @@
             </section>
         </aside>
         <section class="info">
-            <div class="about-me">
+            <div class="about-me" id="aboutMe">
                 <h3 class="text-header">About me</h3>
             <p class="info-text fonts">I am 24. I am currently working as an engineer. But I decided to change my life and change my profession. I will continue to study front-end development with RS School. I am a kind and friendly person and have hard work and perseverance. I want to learn new skills and learn how to apply them in practice.</p>
             </div>
-            <div class="education">
+            <div class="education" id="education">
                 <h3 class="text-header">Education</h3>
                 <ul class="info-text fonts">
                     <li>
@@ -105,14 +110,14 @@
             </div>
             <div class="code-examle">
                 <h3 class="text-header">Code Example</h3>
-                <code class="code fonts">
+                <pre class="code fonts">
                     function multiply(a, b) {
                         return a * b;
                       }
 
                       let result = multiply (28, 32);
                       alert( result );
-                </code>
+                </pre>
             </div>
             <div class="english">
                 <h3 class="text-header">English</h3>
@@ -132,6 +137,6 @@
         </a>
        </div>
         <p class="year">2022</p>
-    </footer> -->
+    </footer>
 </body>
 </html>
